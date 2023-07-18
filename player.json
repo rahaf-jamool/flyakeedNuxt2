@@ -1,0 +1,40 @@
+{
+  "acknowledgmentURL": "",
+  "acknowledgmentUploadRequest": {
+    "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAA",
+    "extension": ".jpeg",
+    "fileName": "a1.jp",
+    "uploadType": 2
+  },
+  "ageCategorytblId": 1,
+  "approved": 0,
+  "birthDate": "2023-04-28",
+  "clubId": 72,
+  "description": "",
+  "endDate": "2023-04-26T09:52:29.469Z",
+  "englishName": "hanen",
+  "identityNum": "43242344",
+  "identityURL": "",
+  "identityUploadRequest": {
+    "data": "iVBORw0KGgoAAAANSUhEUgAAD6EAAAjLCAYAAACmKUkrAAAAC",
+    "extension": ".png",
+    "fileName": "About Us (1).png",
+    "uploadType": 2
+  },
+  "imageDataURL": "",
+  "internatClassification": "gdfd",
+  "localClassification": "gfhfrg",
+  "membershipStartDate": "2023-04-30",
+
+  "name": "حنين",
+  "nationId": 19,
+  "officialNum": "43524242",
+  "passportNum": "4342234",
+  "passportURL": "",
+  "passportUploadRequest": {
+    "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAA",
+    "extension": ".jpeg",
+    "fileName": "a1.jpeg",
+    "uploadType": 2
+  }
+}

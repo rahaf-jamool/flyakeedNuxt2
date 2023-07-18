@@ -1,0 +1,48 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Kimox - Digital Agency Services HTML5 Template
+    Description: Kimox - Digital Agency Services HTML5 Template
+    Author: Bdevs
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+
+    01. header CSS
+    02. footer CSS
+
+-----------------------------------------------------------------------------------*/
+@font-face {
+  font-family: "Tajawal";
+  src: url("../fonts/tajawal/Tajawal-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Tajawal-Bold";
+  src: url("../fonts/tajawal/Tajawal-Bold.ttf") format("truetype");
+}
+* {
+  font-family: Tajawal, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.modal-backdrop {
+  opacity: 0.2 !important;
+}
+.vdp-datepicker * {
+  box-sizing: border-box;
+  width: 100%;
+  border: unset;
+  outline: none;
+}
+.vdp-datepicker__calendar {
+  width: 100%;
+}
+body {
+  margin: unset !important;
+  padding: unset !important;
+}
+
+

@@ -1,0 +1,107 @@
+.navbar {
+  padding: 10px;
+  background-color: #1a1f71;
+  border: 0;
+  z-index: 4;
+  margin-bottom: 0;
+  border-radius: 0;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.logo-column {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.select-language-column {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  width: 150px;
+  text-align: center;
+  span{
+    &:hover{
+      cursor: pointer;
+      background-color: #fff;
+    }
+  }
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #e4e0e0;
+  padding: 5px;
+}
+
+.dropdown-menu span {
+  padding: 5px;
+}
+
+.select-language-column {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.language-select {
+  margin-right: 10px;
+}
+
+.language-link {
+  margin-right: 10px;
+}
+
+.buttons-column {
+  display: flex;
+  align-items: center;
+}
+.company-button {
+  border-radius: 1px;
+  background: #196dfb;
+  width: 120px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  transition: 0.2s all ease-in-out;
+}
+.login-button {
+  color: #196dfb;
+  border-radius: 1px;
+  width: 120px;
+  background: #fff;
+  text-align: center;
+  text-align: center;
+  color: #196dfb;
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  transition: 0.2s all ease-in-out;
+}
+.select-language-column button,
+.select-language-column .language-link {
+  color: #fff;
+}
