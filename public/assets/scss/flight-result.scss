@@ -1,0 +1,191 @@
+.main-body{
+    background-color: #e6f0fe;
+}
+#filter-container[data-type="0"] .disable {
+  display: none;
+}
+
+.disable {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(227, 227, 227, 0.75);
+  z-index: 2;
+  cursor: not-allowed;
+  margin-left: -inherit;
+  margin-right: -14px;
+  transition: 0.3s;
+}
+.border-bottom-1 {
+  border-bottom: 1px solid #a6caff;
+}
+.new-bold-light {
+  font-weight: 400;
+  font-style: normal;
+
+  color: #196df5;
+}
+.icheckbox_square-green.checked {
+  background-position: -48px 0;
+}
+.icheckbox_square-green~span, .iradio_square-green~span {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+    max-width: calc(100% - 33px);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+}
+.row.align>.col-middle {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    clear: both;
+    white-space: initial;
+}
+.new-bold-dark {
+    font-weight: 400;
+    font-style: normal;
+    color: #114aaf;
+}
+.inline-middle {
+    display: inline-block;
+    vertical-align: middle!important;
+}
+.new-light {
+    color: #196df5;
+}
+.flight-result-item {
+    background-color: #fff;
+    padding: 0;
+    display: flex;
+    white-space: nowrap;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.flight-result-item .desc-panel {
+    width: calc(100% - (30% + 16px));
+    display: inline-block;
+    padding: 0 20px;
+}
+.flight-result-item .price-panel {
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    padding: 15px 16px 0 20px;
+}
+.flight-result-item .flight-hole {
+    position: relative;
+    width: 16px;
+}
+.flight-result-item .flight-airline {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    max-width: 140px;
+    white-space: inherit;
+    width: 150px;
+    position: relative;
+}
+.flight-desc {
+    width: calc(100% - 150px);
+    display: inline-block;
+    white-space: normal;
+    vertical-align: middle;
+}
+.flight-desc, .flight-price {
+    padding: 15px;
+    min-height: 100px;
+    height: auto;
+    position: relative;
+}
+.flight-result-item .desc-panel .desc-itinerary {
+    border: 0;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+.flight-result-item .desc-panel .desc-others {
+    border: 0;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    float: right;
+    margin-top: 25px;
+    max-width: 142px;
+    text-overflow: ellipsis;
+    white-space: inherit;
+    overflow: hidden;
+    text-align: center;
+}
+.flight-airline>.fl-img-con:nth-child(1) {
+    z-index: 5;
+}
+.flight-airline .fl-img-con:not(:only-of-type) {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    box-shadow: 1px 0 2px 0 rgba(0,0,0,.2);
+}
+
+.fl-img-con {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    line-height: 60px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #fff;
+}
+.flight-image {
+    width: 50px;
+    height: 50px;
+    background-position: -100px -200px;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.flight-price .cur-price.available {
+    color: #196dfb;
+}
+
+.flight-price .cur-price {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.flight-price .flex-con .full {
+    width: 100%;
+}
+.flight-price .btn {
+    right: 10px;
+    bottom: 10px;
+    min-width: 70%;
+    font-size: 16px;
+    margin: 0;
+}
+.flight-price .flex-con {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.btn-fa-primary {
+    background-color: #196dfb;
+    border: 0;
+    color: #fff;
+    outline: 0;
+    box-shadow: none;
+    transition: .3s;
+}
+.flight-result-item .desc-panel .desc-itinerary .txt-duration {
+    color: #b3b3b3;
+    font-size: 14px;
+    margin: 1px 0 0;
+}

@@ -1,20 +1,28 @@
 <template>
   <section class="search-wrapper index-search">
-    <div>
-      <b-card no-body>
-        <b-tabs pills card>
-          <b-tab title="Tab 1" active
-            ><b-card-text>Tab contents 1</b-card-text></b-tab
+    <div id="bg-places">
+      <div no-body>
+        <b-tabs pills>
+          <b-tab title="Flights" active
+            ><b-card-text>
+              <tab-flights /> </b-card-text
+          ></b-tab>
+          <b-tab title="Hotels"
+            ><b-card-text>Tab contents 2</b-card-text></b-tab
           >
-          <b-tab title="Tab 2"><b-card-text>Tab contents 2</b-card-text></b-tab>
         </b-tabs>
-      </b-card>
+      </div>
     </div>
   </section>
 </template>
 
-<script setup></script>
-
+<script>
+import tabFlights from "./bannerTabs/TabFlights/tabFlights.vue";
+export default {
+  components: { tabFlights },
+  name: "banner",
+};
+</script>
 <style lang="scss">
 @import "@/public/assets/scss/bannerHome";
 </style>

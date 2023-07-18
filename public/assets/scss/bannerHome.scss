@@ -1,10 +1,31 @@
 .search-wrapper {
-    background-color: #e6f0ff;
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: right;
-    transition: 3s;
-    max-width: 1380px;
-    margin: auto;
-    min-height: 616px;
+  background-color: #e6f0ff;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: 3s;
+  margin: auto;
+  min-height: 616px;
+}
+#bg-places {
+  height: 616px;
+  position: absolute;
+  width: 50%;
+  left: 20px;
+  margin: 20px 0;
+}
+
+.nav.nav-pills {
+  margin: 20px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  background: #fff;
+  border-radius: 40px;
+  li.nav-item {
+    margin: 10px 0;
+    .nav-pills .nav-link {
+      border-radius: 26px;
+    }
+  }
 }

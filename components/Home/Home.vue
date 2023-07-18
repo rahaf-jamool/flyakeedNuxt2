@@ -1,14 +1,16 @@
 <script>
+import Banner from './Banner.vue';
 export default {
   name: "home",
   components: {
+    Banner
   },
 };
 </script>
 
 <template>
   <main>
-    home
+    <banner/>
   </main>
 </template>
 
